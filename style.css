@@ -14,8 +14,12 @@ a:hover{
   color:inherit;
 }
 
-.col-md-2{
+.nav{
   height: 100vh;
+}
+
+.ml-210{
+  margin-left: 225px;
 }
 
 .bg-black{
@@ -80,7 +84,7 @@ a:hover{
   padding-top: 15px;
 }
 
-.col-md-2 .btn{
+.btn{
   border-radius: 30px;
 }
 
@@ -101,3 +105,25 @@ a:hover{
 .col-md-8 .col-md-2 h6:hover{
   color:white;
 }
+
+.container-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.item img{
+  width: 50%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+.
