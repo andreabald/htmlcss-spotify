@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
+.col-md-2{
+  height: 85vh;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.white{
+  color: white;
+}
+
+.grey{
+  color:#999999;
+}
+
+.black{
+  color: black;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-dark-grey{
+  background-color: #1a1a1a;
+}
+
+.pad-20{
+  padding: 20px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.font-25{
+  font-size: 25px;
+}
+
+.fa-spotify{
+  font-size: 3em;
+}
+
+.fa-home, .fa-search, .fa-book{
+  font-size: 2em;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.col-md-2 .btn{
+  border-radius: 30px;
+}
+
+.bord-r{
+  border-right: 1px solid #999999;
+}
