@@ -4,66 +4,63 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="container-flex bg-grad">
+      <div class="main">
+        <div class="sidebar bg-black grey pad-20">
+          <nav>
+            <div class="mb-20"><a href="#"><i class="fab fa-spotify white"></i><span class="bold font-25 white hidden"> Spotify</span></a></div>
+            <div class="mb-10"><a href="#"><i class="fas fa-home white"></i> <span class="white hidden"> Home</span></a></div>
+            <div class="mb-10"><a href="#"><i class="fas fa-search grey"></i> <span class="grey hidden"> Cerca</span></a></div>
+            <div class="mb-20"><a href="#"><i class="fas fa-book grey"></i> <span class="grey hidden"> La tua libreria</span></a></div>
+            <button type="button" class="btn black bg-white mb-10 mt-30 hidden"><small>ISCRIVITI</small></button>
+            <button type="button" class="btn bg-dark-grey white mb-20 hidden"><small>ACCEDI</small></button>
 
-    <div class="container-fluid bg-grad">
-      <div class="row">
-        <div class="nav col-md-2 bg-black grey pad-20 navbar-fixed-top">
-            <nav>
-              <div class="mb-20"><a href="#"><i class="fab fa-spotify white"></i><span class="bold font-25 white"> Spotify</span></a></div>
-              <div class="mb-10"><a href="#"><i class="fas fa-home white"></i> <span class="white"> Home</span></a></div>
-              <div class="mb-10"><a href="#"><i class="fas fa-search grey"></i> <span class="grey"> Cerca</span></a></div>
-              <div class="mb-20"><a href="#"><i class="fas fa-book grey"></i> <span class="grey"> La tua libreria</span></a></div>
-              <button type="button" class="btn btn-default btn-block black bg-white mb-10"><small>ISCRIVITI</small></button>
-              <button type="button" class="btn btn-default btn-block bg-dark-grey white mb-20"><small>ACCEDI</small></button>
-
-              <div class="row">
-                <div class="col-md-6 text-center  bord-r">
-                  <a href="#"><small class="grey">Politica sui cookie</small></a>
-                </div>
-                <div class="col-md-6 text-center">
-                  <a href="#"><small class="grey">Privacy</small></a>
-                </div>
-              </div>
-            </nav>
+            <div class="link hidden">
+              <a href="#"><small class="grey pr-10">Politica cookie</small></a>
+              <span></span>
+              <a href="#"><small class="grey plr-10">Privacy</small></a>
+            </div>
+          </nav>
         </div>
 
-        <div class="col-md-10 ml-210">
-
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 mt-30">
-              <div class="row">
-                <div class="col-md-2 plr-10 text-center">
-                  <a href="#"><h6 class="white">IN EVIDENZA</h6></a>
-                  <hr class="text-center">
-                </div>
-                <div class="col-md-2 plr-10 text-center">
-                  <a href="#"><h6 class="grey">PODCAST</h6></a>
-                </div>
-                <div class="col-md-2 plr-10 text-center">
-                  <a href="#"><h6 class="grey">GENERI E MOOD</h6></a>
-                </div>
-                <div class="col-md-2 plr-10 text-center">
-                  <a href="#"><h6 class="grey">NUOVE USCITE</h6></a>
-                </div>
-                <div class="col-md-2 plr-10 text-center">
-                  <a href="#"><h6 class="grey">SCOPRI</h6></a>
-                </div>
-              </div>
-            </div>
+        <div class="centrale bg-grad">
+          <div class="navbar">
+            <a href="#"><h5 class="white">IN EVIDENZA</h5></a>
+            <a href="#"><h5 class="grey">PODCAST</h5></a>
+            <a href="#"><h5 class="grey">GENERI E MOOD</h5></a>
+            <a href="#"><h5 class="grey">NUOVE USCITE</h5></a>
+            <a href="#"><h5 class="grey">SCOPRI</h5></a>
           </div>
 
-          <div class="row pad-20">
-            <div class="col-md-12 mt-30">
+          <div class="titolo pad-20 mt-30">
               <h1 class="white bold">Concentrati con le nostre Playlist...</h1>
-            </div>
           </div>
 
-          <div class="container-flex">
+          <div class="container-items">
+            <div class="item mb-20 text-center">
+              <img src="https://i.scdn.co/image/d19237b4acd491ec601227c52429f683426fcc54">
+              <p class="white">Dance Party</p>
+            </div>
+            <div class="item mb-20 text-center">
+              <img src="https://i.scdn.co/image/d19237b4acd491ec601227c52429f683426fcc54">
+              <p class="white">Dance Party</p>
+            </div>
+            <div class="item mb-20 text-center">
+              <img src="https://i.scdn.co/image/d19237b4acd491ec601227c52429f683426fcc54">
+              <p class="white">Dance Party</p>
+            </div>
+            <div class="item mb-20 text-center">
+              <img src="https://i.scdn.co/image/d19237b4acd491ec601227c52429f683426fcc54">
+              <p class="white">Dance Party</p>
+            </div>
+            <div class="item mb-20 text-center">
+              <img src="https://i.scdn.co/image/d19237b4acd491ec601227c52429f683426fcc54">
+              <p class="white">Dance Party</p>
+            </div>
             <div class="item mb-20 text-center">
               <img src="https://i.scdn.co/image/d19237b4acd491ec601227c52429f683426fcc54">
               <p class="white">Dance Party</p>
@@ -91,19 +88,21 @@
 
 
           </div>
+        </div>
+      </div>
+
+      <div class="footer bg-dark-grey">
+        <div class="buttons">
+          <a class="pad-20" href="#"><i class="fas fa-random grey"></i></a>
+          <a class="pad-20" href="#"><i class="fas fa-step-backward grey"></i></a>
+          <a class="pad-20" href="#"><i class="far fa-play-circle grey"></i></a>
+          <a class="pad-20" href="#"><i class="fas fa-step-forward grey"></i></a>
+          <a class="pad-20" href="#"><i class="fas fa-redo-alt grey"></i></a>
+        </div>
+        <div class="volume">
+          <a href="#"><i class="fas fa-volume-up grey"></i></a>
         </div>
       </div>
     </div>
-
-    <footer class="bg-dark-grey navbar-fixed-bottom">
-      <div class="col-md-12 text-center grey">
-        <ul>
-          <li><a href="#"><i class="fas fa-random"></i></a></li>
-        </ul>
-      </div>
-
-
-    </footer>
-
   </body>
 </html>
